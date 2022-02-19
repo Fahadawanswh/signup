@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Signup {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bolder;
+}
+.cross img {
+  width: 13px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.quickeasy {
+  color: #606770;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: lighter;
+}
+.name input {
+  margin-top: 25px;
+  width: 200px;
+  background-color: #F5F6F7;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccd0d5;;
+}
+
+.emailnum input {
+  margin-top: 5px;
+  width: 404px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  background-color: #F5F6F7;
+  border: 1px solid #ccd0d5;
+}
+.datebirth {
+  color: #606770;
+  font: size 12px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+select {
+  padding: 10px 10px 10px 10px;
+  width: 132px;
+  border-radius: 5px;
+  border: 1px solid #ccd0d5;
+}
+.gender {
+  
+  font: size 12px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+.radio {
+  display: flex;
+}
+.radio label {
+  margin-top: 20px;
+  border: 1px solid #606770;
+  margin: 2px;
+  width: 132px;
+  border-radius: 5px;
+  border: 1px solid #ccd0d5;
+  padding: 10px 30px 10px 39px;
+}
+.text2 {
+  color: #606770;
+  font-size: 12px;
+}
+.Sign-Up {
+  height: 36px;
+  padding: 8px;
+  margin-left: 90px;
+  width: 200px;
+  background-color: #209204;
+  border-radius: 8px;
+  border-color: #209204;
+  color: #ffffff;
+}
+.Main {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  padding: 8px;
+  position: absolute;
+  border-radius: 10px;
+  height: 500px;
+  transform: translate(110%, 25%);
+}
+.triangle1 img {
+  bottom: 9px;
+  position: relative;
+  height: 13px;
+  transform: rotate(90deg);
+  left: 144px;
+}
+.triangle1 {
+  position: absolute;
+  background-color: #be4b49;
+  width: 150px;
+  color: #ffffff;
+  padding: 4px;
+  left: -152px;
+  border-radius: 4px;
+  top: 90px;
+  display: none;
+}
+.exclamation1{
+  display: none;
+}
+.exclamation1 img {
+  top: 100px;
+  position: absolute;
+  height: 22px;
+  margin-left: -38px;
+}
+.triangle2 img {
+  bottom: 33px;
+  position: relative;
+  height: 13px;
+  left: 10px;
+}
+.exclamation2{
+  display: none;
+}
+.exclamation2 img {
+  
+  top: 100px;
+  position: absolute;
+  height: 22px;
+  margin-left: -38px;
+}
+.triangle2 {
+  position: absolute;
+  background-color: #be4b49;
+  width: 150px;
+  color: #ffffff;
+  padding: 4px;
+  right: 65px;
+  border-radius: 4px;
+  top: 140px;
+  display: none;
+}
+.triangle3 img {
+  bottom: 0px;
+  position: relative;
+  height: 13px;
+  transform: rotate(90deg);
+  right: -46px;
+  
+}
+.exclamation3{
+
+
+display: none;
+}
+.exclamation3 img {
+  
+  top: 140px;
+  position: absolute;
+  height: 22px;
+  margin-left: -38px;
+}
+.triangle3 {
+  display: none;
+  position: absolute;
+  background-color: #be4b49;
+  width: 350px;
+  color: #ffffff;
+  padding: 5px;
+  left: -350px;
+  border-radius: 4px;
+  top: 140px;
+}
+.triangle4 img {
+  top: 1px;
+  position: relative;
+  height: 13px;
+  transform: rotate(90deg);
+  right: -22px;
+}
+.exclamation4{
+  display: none;
+}
+.exclamation4 img {
+  
+  top: 183px;
+  position: absolute;
+  height: 22px;
+  margin-left: -38px;
+}
+.triangle4 {
+  display: none;
+  position: absolute;
+  background-color: #be4b49;
+  width: 180px;
+  color: #ffffff;
+  padding: 8px;
+  left: -180px;
+  border-radius: 4px;
+  top: 180px;
+}
+.triangle5 img {
+  top: 1px;
+  position: relative;
+  height: 13px;
+  transform: rotate(90deg);
+  right: -26px;
+}
+.exclamation5{
+  display: none;
+}
+.exclamation5 img {
+  
+  top: 214px;
+  position: absolute;
+  height: 20px;
+  margin-left: 366px;
+}
+.triangle5 {
+  display: none;
+  position: absolute;
+  background-color: #be4b49;
+  width: 150px;
+  color: #ffffff;
+  padding: 10px;
+  left: -150px;
+  border-radius: 4px;
+  top: 235px;
+}
+.triangle6 img {
+  top: -9px;
+  position: relative;
+  height: 15px;
+  transform: rotate(90deg);
+  right: -170px;
+}
+.exclamation6{
+  display: none;
+}
+.exclamation6 img {
+ 
+  top: 278px;
+  position: absolute;
+  height: 20px;
+  margin-left: 366px;
+}
+.triangle6 {
+  display: none;
+  position: absolute;
+  background-color: #be4b49;
+  width: 180px;
+  color: #ffffff;
+  padding: 8px;
+  left: -105px;
+  border-radius: 4px;
+  top: 300px;
+}
